@@ -1,80 +1,70 @@
-# 🧬 Conway's Game of Life – Qt C++
+# Conway’s Game of Life – Qt C++
 
 A Conway’s Game of Life simulator built using C++ and the Qt framework, featuring JSON-based pattern loading.
 
 ---
 
-## 📌 Description
+# Description
 
 This project is a desktop implementation of Conway’s Game of Life created with Qt and C++.  
-The application allows users to run simulations, import patterns using JSON files.
+The application allows users to run simulations and import patterns using JSON files.
+
+It is focused on visualizing cellular automata and experimenting with different initial configurations.
 
 ---
 
-## ⚙️ Features
+# Features
 
 - Conway’s Game of Life simulation
 - Interactive Qt GUI
-- Start / pause / reset simulation controls
+- Start / pause / reset controls
 - Adjustable simulation speed
 - Load patterns from JSON files
 - Save custom patterns to JSON
 - Import predefined structures into the grid
-- Dynamic grid rendering and updates
+- Dynamic grid rendering and real-time updates
 
 ---
 
-## 🧠 Simulation Rules
+# Simulation Rules
 
 The simulation follows the classic Conway’s Game of Life rules:
 
-- Any live cell with fewer than 2 neighbors dies
-- Any live cell with 2 or 3 neighbors survives
-- Any live cell with more than 3 neighbors dies
-- Any dead cell with exactly 3 neighbors becomes alive
+- Any live cell with fewer than 2 neighbors dies  
+- Any live cell with 2 or 3 neighbors survives  
+- Any live cell with more than 3 neighbors dies  
+- Any dead cell with exactly 3 neighbors becomes alive  
 
 ---
 
-## 🎨 User Interface
+# User Interface
 
-- Qt Widgets based interface
+- Qt Widgets-based interface
 - Interactive simulation grid
-- Dark themed UI
-- Real-time simulation rendering
+- Dark-themed UI
+- Real-time visual updates of the grid
 
 ---
 
-## 🛠️ Technologies
+# Technologies Used
 
 - C++
-- Qt (Widgets)
-- JSON file operations
+- Qt Widgets
+- JSON file handling
 - Qt Creator
 
 ---
 
-## 📸 Screenshots
+# Screenshots
 
-### Main Window
+## Main Window
 ![Main Window](screenshots/main.png)
 
-### Running Simulation
+## Running Simulation
 ![Simulation](screenshots/gameplay.png)
 
-
 ---
 
-## 📌 Notes
+# Project Status
 
-This project was created to practice:
-- Qt desktop application development
-- Cellular automata simulation
-- JSON serialization and parsing
-- Real-time grid rendering
-- Object-oriented programming in C++
-
----
-
-## 👨‍💻 Author
-
-C++ / Qt developer focused on simulation systems, algorithms, and desktop applications.
+Completed as a personal learning project.
